@@ -14,11 +14,8 @@ variable "max_ttl" {}
 
 variable "default_ttl" {}
 
-variable "vault_cluster" {}
-
-variable "vault_token" {}
-
 variable "username" {}
+
 variable "password" {}
 
 variable "vault_policies" {
