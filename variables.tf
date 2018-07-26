@@ -1,6 +1,6 @@
 variable "db_name" {}
 
-variable "vault_backend" {}
+variable "db_port" {}
 
 variable "db_host" {}
 

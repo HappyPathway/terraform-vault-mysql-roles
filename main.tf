@@ -9,8 +9,8 @@ data "template_file" "vault_backend_connection" {
   template = "${file("${path.module}/database_connection.json.tpl")}"
 
   vars = {
+    db_port        = "${var.db_port}"
     db_host        = "${var.db_host}"
-    db_port        = 3306
     db_name        = "${var.db_name}"
     username       = "${var.username}"
     password       = "${var.password}"
